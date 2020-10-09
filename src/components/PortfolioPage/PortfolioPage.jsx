@@ -21,22 +21,22 @@ const PortfolioPage = () => {
 
     return (
         <div className="PortfolioPage" id="Portfolio">
-            <div className="PortfolioHeader">
-                <h1>Projects</h1>
-            </div>
-            <div className="ProjectContainer">
-                <CardGroup className="ProjectRow">
-                    {projectData.map((data) => (
-                        <Card className="Project" key={data.title}>
-                            <CardImg 
-                                top
-                                width="100%"
-                                src=
-                            />
-                        </Card>
-                    ))}
-                </CardGroup>   
-            </div>           
+            <div className="PortfolioOpacityLayer">
+                <div className="PortfolioHeader">
+                    <h1>Projects</h1>
+                </div>
+                <div className="ProjectContainer">
+                    <Row className="ProjectRow" xs="1" md="1" lg="2">
+                        {projectData.map((data) => (
+                            <Col className="Project" key={data.title}>
+                                <img 
+                                    src={require(`../../imgs/${data.image}`)}
+                                />
+                            </Col>
+                        ))}
+                    </Row>   
+                </div> 
+            </div>          
         </div>
     )
 }
