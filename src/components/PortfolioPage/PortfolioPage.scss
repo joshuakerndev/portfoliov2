@@ -1,0 +1,48 @@
+.PortfolioPage {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../../imgs/unsplashCoding3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.PortfolioHeader {
+    min-height: 200px;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.85);
+    h1 {
+        padding-top: 56px;
+        color:white;
+    }
+}
+
+.ProjectContainer {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.85);
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.ProjectRow {
+    min-height: 100%;
+    width: 100%;
+    margin: 0 !important;
+}
+
+.Project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+}

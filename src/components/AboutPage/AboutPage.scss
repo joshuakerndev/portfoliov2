@@ -1,0 +1,60 @@
+.AboutPage {
+    height: auto;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240,240,240);
+}
+
+.AboutHeader {
+    min-height: 200px;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    h1 {
+        padding-top: 56px;
+        color: black;
+        border-bottom: 4px solid red;
+    }
+}
+
+.AboutContent {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.PictureOfMe {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        max-width:75%;
+        max-height:75%;
+        border-radius: 50%;
+    }
+}
+
+.BriefBio {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    p {
+        width: 75%;
+    }
+
+    a {
+        color: black;
+        font-weight: 700;
+    }
+}
