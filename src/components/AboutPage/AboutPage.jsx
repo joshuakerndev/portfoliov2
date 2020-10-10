@@ -12,13 +12,13 @@ const AboutPage = () => {
                 <h1>About Me</h1>
             </div>
             <Row className="AboutContent" xs="1" sm="2">
-                <Col className="PictureOfMe">
+                <Col className="PictureOfMe" xs="12" sm="4">
                     <img 
                         src={require("../../imgs/profileforportfolio.jpg")}
                         alt="Me"
                     />
                 </Col>
-                <Col className="BriefBio">
+                <Col className="BriefBio" xs="12" sm="8">
                     <p>
                         I develop front-end or full-stack applications in Boston, MA, or remotely.
                         I'm interested in working with motivated teams to bring designs to life with

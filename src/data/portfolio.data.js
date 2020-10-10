@@ -1,5 +1,14 @@
 const PORTFOLIO_DATA = [
     {
+        title:"flash",
+        url: "https://flash-clc.herokuapp.com/",
+        image: "flash.jpg",
+        description: "A front-end flash card app/study assistant built in React. Built specifically as a Chinese/English language study tool, it could be used for other subjects as well. Decks of flash cards are stored in local storage, and both decks and their individual cards can be created, edited, or deleted. The cards flip over on click. A study page allows users to cycle through cards and study them one-by-one. A 'shuffle' button will shuffle the deck for the study session. A quiz game is available to test the user's knowledge of a particular deck of cards, in which the user will be given multiple choices for the Chinese translation of the English word. Points are scored for correct answers, three wrong answers will end the game, and high score is stored and updated in local storage. All wrong answers are randomized per question. Built using hooks, global state is handled with Redux.",
+        features: ["Redux", "Responsive design that will not break on mobile", "Smooth card-flipping animation", "Organized, customizable decks of cards", "Quiz game to aid in studying", "Logic for shuffling cards, randomizing answers, and error-free system for keeping track of and displaying all data", "Convenient use of local storage keeps everything in the front end"],
+        whatILearned: ["When to use Global State, and when to use Local State in React components", "Various card-flip animation techniques", "Proper use of useState and useEffect hooks to handle data", "How to dispatch to multiple reducers in tandem to accomplish different state changes at the same time, while also keeping it organized and from messing itself up", "How to handle more complex local storage operations (i.e. instead of just overwriting a single value, parsing storage, selectively editing values nested a couple layers deep in arrays and objects, then saving it to local storage again without causing errors)", "How to use outside tools (Responsively) to quickly create a responsive design that works on mobile much faster than I could before, saving a lot of time on development", "Common issues that come from styling React apps due to React creating many <div> elements (such as complications with setting height) and how to solve them"],
+        thingsToDo: ["Customize alerts", "Add icon for browser", "Add custom sound effects and music", "Add Context to allow users to switch between seeing the English side first or the Chinese side first, allowing users to choose whether to study/quiz themselves on either side of the card"]
+    },
+    {
         title: "BoSTRent",
         url: "https://calm-brushlands-43036.herokuapp.com",
         image: "bostrent.jpg",
