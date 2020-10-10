@@ -1,19 +1,12 @@
 import React from 'react';
 
-import { Row, Col } from 'reactstrap';
 import { 
-    Card, 
-    CardBody, 
-    Button, 
-    CardTitle, 
-    CardText, 
-    CardImg,
-    CardGroup 
+    Row
 } from 'reactstrap';
-
 
 import "./PortfolioPage.scss";
 import PORTFOLIO_DATA from '../../data/portfolio.data';
+import PortfolioItem from '../PortfolioItem/PortfolioItem';
 
 const PortfolioPage = () => {
 
@@ -28,11 +21,11 @@ const PortfolioPage = () => {
                 <div className="ProjectContainer">
                     <Row className="ProjectRow" xs="1" md="1" lg="2">
                         {projectData.map((data) => (
-                            <Col className="Project" key={data.title}>
-                                <img 
-                                    src={require(`../../imgs/${data.image}`)}
-                                />
-                            </Col>
+                            <PortfolioItem 
+                                data={data}
+                                className="Project" 
+                                key={data.title}
+                            />
                         ))}
                     </Row>   
                 </div> 
