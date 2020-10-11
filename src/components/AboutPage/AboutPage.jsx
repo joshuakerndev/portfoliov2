@@ -9,7 +9,7 @@ const AboutPage = () => {
     return (
         <div className="AboutPage" id="About">
             <div className="AboutHeader">
-                <h1>About Me</h1>
+                <h1>ABOUT ME</h1>
             </div>
             <Row className="AboutContent" xs="1" sm="2">
                 <Col className="PictureOfMe" xs="12" sm="4">

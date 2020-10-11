@@ -16,7 +16,7 @@ const PortfolioPage = () => {
         <div className="PortfolioPage" id="Portfolio">
             <div className="PortfolioOpacityLayer">
                 <div className="PortfolioHeader">
-                    <h1>Projects</h1>
+                    <h1>PROJECTS</h1>
                 </div>
                 <div className="ProjectContainer">
                     <Row className="ProjectRow" xs="1" md="1" lg="2">
