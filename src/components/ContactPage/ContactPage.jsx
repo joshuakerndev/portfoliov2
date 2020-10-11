@@ -29,7 +29,7 @@ const ContactPage = () => {
                     </span>
                     <span>
                         <a 
-                            href="https://www.linkedin.com/in/joshua-kern-99bb031b4/"
+                            href="https://linkedin.com/in/joshuakerndev"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
