@@ -35,7 +35,13 @@ const PortfolioItemModal = ({ data, toggle, modal }) => {
                     ** Please note, Heroku websites may take a few seconds longer than other sites to load!
                 </p>
                 <p className="ModalUrl">
-                    <a href={url} target="_blank">{url}</a>
+                    <a 
+                        href={url} 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {url}
+                    </a>
                 </p>
                 <p className="ModalDescription">
                     {description}

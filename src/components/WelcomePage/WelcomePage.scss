@@ -4,12 +4,18 @@
     align-items: center;
     height: 100%;
     width: 100%;
+    font-size: 56px;
+    color: white;
 }
 
-h1 {
-
+.WelcomeText {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+}
+
+.TypewriterContainer {
+    display: flex;
+    justify-content: center;
+    width: 80%;
 }
