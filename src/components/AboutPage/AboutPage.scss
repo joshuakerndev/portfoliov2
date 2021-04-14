@@ -34,12 +34,14 @@
 }
 
 .PictureOfMe {
+    object-fit: cover;
     width: 50%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     img {
+        object-fit: cover;
         max-width:75%;
         max-height:65%;
         border-radius: 50%;
