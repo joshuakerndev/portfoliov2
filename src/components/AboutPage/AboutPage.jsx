@@ -20,7 +20,7 @@ const AboutPage = () => {
                 </Col>
                 <Col className="BriefBio" xs="12" sm="8">
                     <p>
-                        I develop front-end or full-stack applications in Boston, MA, or remotely.
+                        I develop front-end or full-stack applications in Las Vegas, NV, or remotely.
                         I'm interested in working with motivated teams to bring designs to life with
                         precision.
                         <br /><br /> 

@@ -35,13 +35,20 @@ const PortfolioItemModal = ({ data, toggle, modal }) => {
                     ** Please note, Heroku websites may take a few seconds longer than other sites to load!
                 </p>
                 <p className="ModalUrl">
-                    <a 
-                        href={url} 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        {url}
+                    Link:
+                    <br/>
+                    {url === "Internal website - link not available" ? 
+                        <p>
+                            {url}
+                        </p> :
+                        <a 
+                            href={url} 
+                            target="_blank"
+                             rel="noopener noreferrer"
+                        >
+                            {url}
                     </a>
+                    }
                 </p>
                 <p className="ModalDescription">
                     {description}
@@ -62,14 +69,17 @@ const PortfolioItemModal = ({ data, toggle, modal }) => {
                         ))}
                     </ul>
                 </p>
-                <p>
-                    Possible Improvements:
-                    <ul className="ModalList">
-                        {thingsToDo.map((todo) => (
-                            <li>{todo}</li>
-                        ))}
-                    </ul>
-                </p>
+                {thingsToDo.length < 1 ? 
+                    <fr></fr> :
+                    <p>
+                        Possible Improvements:
+                        <ul className="ModalList">
+                            {thingsToDo.map((todo) => (
+                                <li>{todo}</li>
+                            ))}
+                        </ul>
+                    </p>
+                }
                 <p className="ModalContact">
                     Contact me for additional information about development, code snippets, or other ideas or questions.
                 </p>
