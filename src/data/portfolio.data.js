@@ -1,5 +1,14 @@
 const PORTFOLIO_DATA = [
     {
+        title: "HKMF Management",
+        url: "https://www.hkmfmanagement.com",
+        image: "HKMFScreenshot.jpg",
+        description: "A static website built for HKMF Management, a real estate management operation in Boston and Las Vegas. Built in React with a bit of Material UI, the site was designed and developed with enough aesthetically-pleasing and novel functionality to engage the user, while remaining intuitive and presentable for clients.",
+        features: ["Custom hamburger menu with sleek animation", "Smooth page transitions using React Router", "Single-page application", "Local state to allow for the content to change when buttons or circles are clicked", "Linear and interactive design to send the user on a pipeline to the Contact page", "Custom-made CSS-based Shadow and Filter elements used to layer and create multiple visually-pleasing page effects"],
+        whatILearned: ["How to leverage what I've learned about UI design and development to bring a real client's business to life online", "How to custom-build elements and use CSS classes and local state to change them and animate them", "How to build CSS-based filter and shadow elements and to layer them in order to create visually-pleasing effects", "How to work with a client in an organized, sprint-based method to reach project milestones and bring the application from conception to completion/launch", "How to migrate a project from Heroku web hosting to Netlify", "How to leverage version control to make changes to the project based on the client's feedback to reach important milestones on schedule"],
+        thingsToDo: []
+    },
+    {
         title: "Museum of Dream Space",
         url: "https://www.mods-museum.com",
         image: "modsWebsiteScreenshotVersion2.jpg",
